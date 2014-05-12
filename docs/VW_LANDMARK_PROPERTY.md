@@ -1,13 +1,13 @@
 ## Landmark Property View
 
-The Landmark Property view is based on the Planning point geodatabase and the historic inventory table. This view will describe spatially every known historic property or item in Baltimore County that is on the County Landmark List.
+The Landmark Property view is based on `HISTORIC_PROPERTY` feature class and the `HISTORICFEATURESALL` table. This view will describe spatially every known historic property or item in Baltimore County that is on the County Landmark List.
 
 Technically, the view will consider the CountyDesignation field and look for a specific string to show properties that are on the County LL.
 
 ### View Model
 
-To be built.
-Basics: relate `HistoricFeaturesAll.CI_Number` with `tblProperty.CI_Number`. *WHERE CountyDesignation ="Landmarks List" OR "PLL"*.
+* Relate `HISTORICFEATURESALL.CI_NUMBER` with `HISTORIC_PROPERTY.CI_NUMBER`
+* WHERE CountyDesignation ="Landmarks List" OR "PLL".
 
 ### Fields
 

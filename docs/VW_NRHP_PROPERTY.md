@@ -1,12 +1,12 @@
 ## National Register of Historic Places View
-The National Register of Historic Places view is based on the Planning point geodatabase and the historic inventory table. This view will describe spatially every known historic property or item in Baltimore County that is on the National Register of Historic Places.
+The National Register of Historic Places view is based on `HISTORIC_PROPERTY` feature class and the `HISTORICFEATURESALL` table. This view will describe spatially every known historic property or item in Baltimore County that is on the National Register of Historic Places.
 
 Technically, the view will consider the FedDesignation and Status fields and look for a specific string to show properties that are in the NRHP.
 
 ### View Model
 
-To be built.
-Basics: relate HistoricFeaturesAll.CI_Number with tblProperty.CI_Number. WHERE FedDesignation = "NRPROPERTY" AND Status IS NULL.
+* Relate `HISTORICFEATURESALL.CI_NUMBER` with `HISTORIC_PROPERTY.CI_NUMBER`
+* WHERE FedDesignation = "NRPROPERTY" AND Status IS NULL.
 
 ### Fields
 

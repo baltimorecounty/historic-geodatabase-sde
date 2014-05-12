@@ -5,7 +5,7 @@ Technically, the view will consider the MIHPNumber field and look for a specific
 
 ### View Model
 
-* Relate `HistoricFeaturesAll.CI_Number` with `tblProperty.CI_Number`
+* Relate `HISTORICFEATURESALL.CI_NUMBER` with `HISTORIC_PROPERTY.CI_NUMBER`
 * WHERE MIHPNumber starts with CR.
 
 ### Fields
