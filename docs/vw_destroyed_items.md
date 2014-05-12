@@ -11,7 +11,7 @@ To be built.
 
 ### Fields
 
-| Field              | HF Field Name       | Alias                          |
+| Field              | HF Field Name       | Alias                     |
 |--------------------|---------------------|---------------------------|
 | MIHPNumber         | MHIPNUMBER          |                           |
 | Property Name      | PROPERTY_NAME       |                           |
