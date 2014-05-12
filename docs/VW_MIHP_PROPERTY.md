@@ -1,4 +1,5 @@
 ## MIHP Properties View
+
 The MHIP Properties view is based on the `HISTORIC_PROPERTY` feature class and the `HISTORICFEATURESALL` table. This view will describe spatially every known property or item in Baltimore County that is in the Maryland Inventory of Historic Properties.
 
 Technically, the view will consider the MIHPNumber field and look for a specific string to filter out properties that are in the MIHP.
