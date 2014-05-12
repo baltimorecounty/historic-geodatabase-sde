@@ -5,8 +5,8 @@ Technically, the view will consider the MIHPNumber field and look for a specific
 
 ### View Model
 
-To be built.
-Basics: relate HistoricFeaturesAll.CI_Number with tblProperty.CI_Number. Filter out any properties WHERE MIHPNumber starts with CR.
+* Relate `HistoricFeaturesAll.CI_Number` with `tblProperty.CI_Number`
+* WHERE MIHPNumber starts with CR.
 
 ### Fields
 
