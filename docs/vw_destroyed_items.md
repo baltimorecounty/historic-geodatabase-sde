@@ -11,15 +11,15 @@ To be built.
 
 ### Fields
 
-| Field              | Type       | Alias                          |
-|--------------------|------------|--------------------------------|
-| MIHPNumber         | Int        |                                |
-| Property Name      | Text       |                                |
-| Ownership          | Text       |                                |
-| Federal Designation| Text       |                                |
-| State Designation  | Text       |                                |
-| County Designation | Text       |                                |
-| Status             | Text       | Property Status                |
-| Other Landmark #   | Int?       | Alternate Landmark Number      |
-| Landmark #         | Int?       | Landmark Number                |
-| Landmark Bill #    | Int?       | Landmark Bill Number           |
+| Field              | HF Field Name       | Alias                          |
+|--------------------|---------------------|---------------------------|
+| MIHPNumber         | MHIPNUMBER          |                           |
+| Property Name      | PROPERTY_NAME       |                           |
+| Ownership          | OWNERSHIP           |                           |
+| Federal Designation| FEDERAL_DESIGNATION |                           |
+| State Designation  | STATE_DESIGNATION   |                           |
+| County Designation | COUNTY_DESIGNATION  |                           |
+| Status             | STATUS              | Property Status           |
+| Other Landmark #   | OTHER_LANDMARK_NUM  | Alternate Landmark Number |
+| Landmark #         | LANDMARK_NUM        | Landmark Number           |
+| Landmark Bill #    | LANDMARK_BILL_NUM   | Landmark Bill Number      |
