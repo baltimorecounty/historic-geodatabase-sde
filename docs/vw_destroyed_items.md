@@ -13,7 +13,7 @@ To be built.
 
 | Field              | HF Field Name       | Alias                     |
 |--------------------|---------------------|---------------------------|
-| MIHPNumber         | MHIPNUMBER          |                           |
+| MIHPNumber         | MIHPNUMBER          |                           |
 | Property Name      | PROPERTY_NAME       |                           |
 | Ownership          | OWNERSHIP           |                           |
 | Federal Designation| FEDERAL_DESIGNATION |                           |
